@@ -1,8 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    flex-direction: column;
+
+}
+
 header{
     display:flex;
+    gap: 70%;
     
 }
 
 header div{
     flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+body form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3%;
+    border: 1px solid black;
+    
 }
