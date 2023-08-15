@@ -1,0 +1,8 @@
+header{
+    display:flex;
+    
+}
+
+header div{
+    flex-wrap: wrap;
+}
